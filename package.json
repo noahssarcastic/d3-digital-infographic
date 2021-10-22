@@ -1,0 +1,32 @@
+{
+  "name": "d3-digital-infographic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "nodemon": "nodemon server.js",
+    "sync": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahssarcastic/d3-digital-infographic.git"
+  },
+  "keywords": [
+    "d3"
+  ],
+  "author": "Noah Iniguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noahssarcastic/d3-digital-infographic/issues"
+  },
+  "homepage": "https://github.com/noahssarcastic/d3-digital-infographic#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14"
+  }
+}
